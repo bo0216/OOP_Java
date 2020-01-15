@@ -6,8 +6,12 @@ public class MyDateTest {
 		
 		MyDate date = new MyDate();
 		
-		//date.set
+		
+		date.setYear(2019);
+		date.setMonth(13);
+		date.setDay(20);
+		
+		date.showDate();
 
 	}
-
 }
